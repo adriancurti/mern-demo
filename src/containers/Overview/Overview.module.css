@@ -1,0 +1,67 @@
+.Overview {
+    margin: 20px auto;
+    width: 90%;
+    position: relative;
+}
+
+.Card {
+    box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2), 0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+}
+
+.FieldLabel,
+.FieldData,
+.FieldStatus {
+    font-weight: 300;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.FieldData {
+    font-weight: 500;
+}
+
+.FieldStatus {
+    color: #28a745;
+    font-weight: 500;
+}
+
+.FieldNull {
+    height: 34px;
+}
+
+.IconLeft {
+    margin-right: 5px;
+}
+
+.ColumnOne,
+.ColumnTwo {
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.ColumnTwo {
+    border-top: 1px solid rgba(0, 0, 0, 0.15);
+    border-left: none;
+}
+
+@media (max-width: 660px) {
+    .Overview {
+        width: 95%;
+        max-width: 95%;
+        min-width: 320px;
+    }
+}
+
+@media (max-width: 480px) {
+    .Overview {
+        box-shadow: none;
+        border: none;
+    }
+}
+
+@media (min-width: 768px) {
+    .ColumnTwo {
+        border-top: none;
+        border-left: 1px solid rgba(0, 0, 0, 0.15);
+    }
+}

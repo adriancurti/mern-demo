@@ -1,0 +1,12 @@
+.Content {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.Background {
+    position: fixed;
+    z-index: -1000;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(163, 177, 255, 0.2);
+}

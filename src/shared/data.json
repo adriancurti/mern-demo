@@ -1,0 +1,75 @@
+{
+    "billing": {
+        "invoice": {
+            "number": "S03834754",
+            "revision": {
+                "invoiceNumeral": "33-0092kk00",
+                "date": "7/31/18",
+                "dueDate": "7/31/18",
+                "terms": "Net 0",
+                "billTo": "",
+                "balance": "452.45"
+            }
+        },
+        "process": {
+            "text": "Text",
+            "diagram": {
+                "steps": [{
+                        "order": "1",
+                        "details": "Something"
+                    },
+                    {
+                        "order": "2",
+                        "details": "Something"
+                    },
+                    {
+                        "order": "3",
+                        "details": "Something"
+                    },
+                    {
+                        "order": "4",
+                        "details": "Something"
+                    },
+                    {
+                        "order": "5",
+                        "details": "Something"
+                    }
+                ]
+            },
+            "map": {
+                "locations": [{
+                        "latitude": "x1",
+                        "longitude": "y1"
+                    },
+                    {
+                        "latitude": "x2",
+                        "longitude": "y2"
+                    },
+                    {
+                        "latitude": "x3",
+                        "longitude": "y3"
+                    },
+                    {
+                        "latitude": "x4",
+                        "longitude": "y4"
+                    },
+                    {
+                        "latitude": "x5",
+                        "longitude": "y5"
+                    }
+                ]
+            }
+        },
+        "overview": {
+            "status": "Active",
+            "method": "Multimodal",
+            "capacity": "LCL",
+            "drayage": "Pickup, Delivery",
+            "incoterms": "FOB",
+            "serviceOptions": "Deconsolidation, Customs Clearance",
+            "comodities": {
+                "hazardousOrForbbiden": "Lithium Batteries, Hazmat, Other"
+            }
+        }
+    }
+}

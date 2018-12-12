@@ -1,0 +1,90 @@
+.Invoice {
+    margin: 20px auto;
+    width: 90%;
+    position: relative;
+}
+
+.HeaderContainer {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: left;
+    align-items: flex-end;
+}
+
+.InvoiceTitle {
+    margin-right: 10px;
+}
+
+.InvoiceTitleNumber {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.Card {
+    box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2), 0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+}
+
+.FieldLabel,
+.FieldData {
+    font-weight: 300;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.FieldData {
+    font-weight: 500;
+}
+
+.FieldTitle,
+.FieldBalance {
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin: 10px 15px;
+}
+
+.FieldBalance {
+    color: #fd7e14;
+}
+
+.ColumnOne,
+.ColumnTwo,
+.ColumnThree {
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.ColumnTwo,
+.ColumnThree {
+    border-top: 1px solid rgba(0, 0, 0, 0.15);
+    border-left: none;
+}
+
+@media (max-width: 660px) {
+    .Invoice {
+        width: 95%;
+        max-width: 95%;
+        min-width: 320px;
+    }
+}
+
+@media (max-width: 480px) {
+    .Invoice {
+        box-shadow: none;
+        border: none;
+    }
+}
+
+@media (min-width: 768px) {
+    .ColumnTwo {
+        height: 176px;
+        border-top: none;
+        border-left: 1px solid rgba(0, 0, 0, 0.15);
+    }
+}
+
+@media (min-width: 992px) {
+    .ColumnThree {
+        height: 176px;
+        border-top: none;
+        border-left: 1px solid rgba(0, 0, 0, 0.15);
+    }
+}

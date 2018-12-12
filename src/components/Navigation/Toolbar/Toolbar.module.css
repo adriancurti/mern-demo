@@ -1,0 +1,61 @@
+.NavbarBrand {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.NavbarBrandIcon {
+    margin-right: 10px;
+    height: 38px;
+}
+
+.NavLink:hover {
+    color: #2196f3;
+}
+
+.NotificationsContainer {
+    position: relative;
+}
+
+.NotificationsCount {
+    font-size: 10px;
+    text-align: center;
+    color: white;
+    border-radius: 100%;
+    position: absolute;
+    top: 0px;
+    left: 13px;
+}
+
+.DropdownToggle {
+    width: 60px;
+    display: flex !important;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.DropdownMenu {
+    height: 26px;
+    width: 26px;
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 100%;
+}
+
+.DropdownMenu:hover {
+    color: #2196f3;
+}
+
+@media (max-width: 947px) {
+    .Root {
+        min-width: 947px;
+    }
+}
+
+@media (max-width: 767px) {
+    .Root {
+        min-width: 320px;
+    }
+}
